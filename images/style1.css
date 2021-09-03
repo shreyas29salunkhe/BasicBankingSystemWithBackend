@@ -1,0 +1,99 @@
+.header{
+    height: 3cm;
+    background-image: url("images/bar1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color:ghostwhite;
+}
+
+.logo{
+    background-color: lavender;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.logo sup, small{
+    font-size: 15px;
+    }
+.logo sup{
+    color:deeppink;
+}
+.navbar{
+    background-color: rgb(188, 248, 188);
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.navbar .nav{
+    justify-content: flex-end;
+}
+.navbar ul {
+    margin: 0;
+    padding: 10px;
+}
+.navbar li {
+    display: inline;
+    list-style: none;
+    margin-right: 50px;
+    position:relative;
+}
+
+.navbar li.active a{
+    margin-left: 300px;
+}
+.navbar ul.nav a{
+    font-size: 12pt;
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 1.936;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.navbar ul.nav a:hover{
+    color:cornflowerblue;
+}
+
+.card{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+
+/*mainSection*/
+.card{
+    max-width: 1000px; 
+    background-color: rgb(173, 216, 230);
+    box-sizing: border-box;
+    border-width: 5px;
+}
+
+
+.middle{
+    width: 400px;
+    float: left;
+    height: 300px; 
+}
+ /* .first-div{  
+    width: 400px;
+    float: left;
+    height: 300px;
+    
+}
+.second-div{
+    width: 400px;
+    float: left;
+    height: 300px;
+}
+.third-div{
+    width: 400px;
+    float: left;
+    height: 500px;
+}
+ .bottom{
+     width: 100%;
+     float: right;
+ } */
