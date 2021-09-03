@@ -1,0 +1,77 @@
+/*NavBar*/
+.header{
+    height: 3cm;
+    background-image: url("images/bar1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color:rgb(86, 228, 247); 
+       
+}
+
+.dropdown{
+    
+    background-color:rgb(86, 228, 247); 
+}
+.dropdown-menu{
+    background-color:ghostwhite;
+}
+#dropdownMenuButton1{
+    background-color:rgb(86, 228, 247);
+    margin-left: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.welcome{
+    background-color:rgb(86, 228, 247);
+}
+/*Body*/
+
+.card{
+    max-width: 1000px; 
+    background-color:rgb(86, 228, 247);
+    box-sizing: border-box;
+    border-width: 5px;
+    
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 200px;
+  }
+
+
+/*Footer*/
+#footer {
+    background-color:grey;
+    padding: 1px;
+    color:black;
+    text-align: center;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+    
+  }
+
+/*Customers*/
+.list{
+    margin-left: 400px;
+}
+.click{
+    padding: 4px;
+    background-color:teal;
+}
+.my-info{
+    background-color:rgb(86, 228, 247);
+    padding: 12px;
+}
+.table{
+    border-color: black;
+  
+}
